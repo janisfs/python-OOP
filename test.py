@@ -34,7 +34,7 @@ class Teacher(Person):
 
 # Создаем объект класса Person
 person1 = Person("Anton", 30)
-person1.introduce()  # Вывод: Hello, my name is Anton and I am 30 years old.
+person1.introduce()  # Вывод: Hello, my name is Anton, and I am 30 years old.
 
 # Создаем объект класса Student
 student1 = Student("Boris", 20, "c-1234")

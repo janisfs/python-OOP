@@ -39,7 +39,8 @@ class TaskManagerApp:
         self.label_deadline = tk.Label(self.frame, text="Дедлайн:")
         self.label_deadline.grid(row=1, column=0)
 
-        self.deadline_entry = DateEntry(self.frame, width=37, background='darkblue', foreground='white', borderwidth=2, date_pattern='yyyy-mm-dd')
+        self.deadline_entry = DateEntry(self.frame, width=37, background='blue', foreground='white',
+                                        borderwidth=2, date_pattern='yyyy-mm-dd')
         self.deadline_entry.grid(row=1, column=1, padx=10)
 
         self.add_task_button = tk.Button(self.frame, text="Добавить задачу", command=self.add_task)

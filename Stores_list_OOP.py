@@ -30,6 +30,8 @@ store1 = Store("My Grocery Store", "123 Main St")
 store1.add_item("apples", 0.5)
 store1.add_item("bananas", 0.75)
 store1.add_item("oranges", 0.25)
+store1.add_item("milk", 2.0)
+store1.add_item("bread", 1.5)
 stores.append(store1)
 
 # Создаем второй магазин и добавляем товары
@@ -37,6 +39,7 @@ store2 = Store("Tech Store", "456 Tech Blvd")
 store2.add_item("laptop", 999.99)
 store2.add_item("mouse", 25.99)
 store2.add_item("keyboard", 49.99)
+store2.add_item("headphones", 199.99)
 stores.append(store2)
 
 # Создаем третий магазин и добавляем товары
@@ -44,6 +47,8 @@ store3 = Store("Book Store", "789 Book Ave")
 store3.add_item("novel", 12.99)
 store3.add_item("notebook", 2.49)
 store3.add_item("pen", 1.99)
+store3.add_item("eraser", 0.99)
+store3.add_item("pencil", 0.99)
 stores.append(store3)
 
 # Выводим информацию о всех магазинах
